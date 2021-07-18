@@ -1,1 +1,1 @@
-"# BetterPerms" 
+# BetterPerms
