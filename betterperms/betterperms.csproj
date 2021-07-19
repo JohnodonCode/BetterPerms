@@ -31,15 +31,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Commands\setconfig\human_grenade_multiplier.cs" />
-    <Compile Include="Commands\setconfig\pd_refresh_exit.cs" />
-    <Compile Include="Commands\setconfig\player_list_title.cs" />
-    <Compile Include="Commands\setconfig\friendly_fire.cs" />
-    <Compile Include="Commands\setconfig\scp_grenade_multiplier.cs" />
+    <Compile Include="Commands\setconfig\HumanGrenadeMultiplier.cs" />
+    <Compile Include="Commands\setconfig\PDRefreshExit.cs" />
+    <Compile Include="Commands\setconfig\PlayerListTitle.cs" />
+    <Compile Include="Commands\setconfig\FriendlyFire.cs" />
+    <Compile Include="Commands\setconfig\ScpGrenadeMultiplier.cs" />
     <Compile Include="Commands\setconfig\SetConfigCommand.cs" />
-    <Compile Include="Commands\setconfig\spawn_protect_disable.cs" />
-    <Compile Include="Commands\setconfig\spawn_protect_time.cs" />
+    <Compile Include="Commands\setconfig\SpawnProtectDisable.cs" />
+    <Compile Include="Commands\setconfig\SpawnProtectTime.cs" />
     <Compile Include="Config.cs" />
+    <Compile Include="Methods.cs" />
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

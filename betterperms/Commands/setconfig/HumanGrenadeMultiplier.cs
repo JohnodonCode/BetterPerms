@@ -2,20 +2,19 @@
 using Exiled.Permissions.Extensions;
 using System;
 using GameCore;
-
 namespace betterperms.Commands.setconfig
 {
-    class human_grenade_multiplier : ICommand
+    class HumanGrenadeMultiplier : ICommand
     {
         public string Command { get; } = "human_grenade_multiplier";
 
-        public string[] Aliases { get; } = { };
+        public string[] Aliases { get; } = Array.Empty<string>();
 
         public string Description { get; } = "";
 
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {
-            if (!sender.CheckPermission("ServerConfigs.humangrenademultiplier") && !sender.CheckPermission("ServerConfigs") && !sender.CheckPermission(PlayerPermissions.ServerConfigs))
+            if (!new Methods().CheckSCPerms("humangrenademultiplier", sender))
             {
                 response = "You do not have permission to use this command.";
                 return false;
@@ -33,11 +32,8 @@ namespace betterperms.Commands.setconfig
                 response = $"Set ServerConfig [human_grenade_multiplier] to {multiplier * 100}";
                 return true;
             }
-            else
-            {
-                response = "Invalid argument (0)\nERR: IsNaN";
-                return false;
-            }
+            response = "Invalid argument (0)\nERR: IsNaN";
+            return false;
         }
     }
 }

@@ -5,17 +5,17 @@ using GameCore;
 
 namespace betterperms.Commands.setconfig
 {
-    class spawn_protect_disable : ICommand
+    class SpawnProtectDisable : ICommand
     {
         public string Command { get; } = "spawn_protect_disable";
 
-        public string[] Aliases { get; } = { };
+        public string[] Aliases { get; } = Array.Empty<string>();
 
         public string Description { get; } = "";
 
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {
-            if (!sender.CheckPermission("ServerConfigs.spawnprotectdisable") && !sender.CheckPermission("ServerConfigs") && !sender.CheckPermission("ServerConfigs.spawnprotect") && !sender.CheckPermission(PlayerPermissions.ServerConfigs))
+            if (!new Methods().CheckSCPerms("spawnprotectdisable", sender))
             {
                 response = "You do not have permission to use this command.";
                 return false;
