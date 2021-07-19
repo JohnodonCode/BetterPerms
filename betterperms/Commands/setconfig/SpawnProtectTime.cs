@@ -1,5 +1,4 @@
 ﻿using CommandSystem;
-using Exiled.Permissions.Extensions;
 using System;
 
 namespace betterperms.Commands.setconfig

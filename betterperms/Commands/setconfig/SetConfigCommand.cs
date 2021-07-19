@@ -1,8 +1,4 @@
 ﻿using CommandSystem;
-using Exiled.API.Extensions;
-using Exiled.API.Features;
-using Exiled.Permissions.Extensions;
-using RemoteAdmin;
 using System;
 
 namespace betterperms.Commands.setconfig

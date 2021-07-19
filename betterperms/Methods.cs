@@ -1,7 +1,5 @@
 ﻿using CommandSystem;
 using Exiled.Permissions.Extensions;
-using System;
-using GameCore;
 
 namespace betterperms
 {

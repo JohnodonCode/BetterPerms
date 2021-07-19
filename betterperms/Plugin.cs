@@ -1,6 +1,5 @@
 ﻿using Exiled.API.Features;
 using System;
-using ServerE = Exiled.Events.Handlers.Server;
 
 namespace betterperms
 {

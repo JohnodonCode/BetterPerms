@@ -1,7 +1,7 @@
 ﻿using CommandSystem;
-using Exiled.Permissions.Extensions;
-using System;
 using GameCore;
+using System;
+
 namespace betterperms.Commands.setconfig
 {
     class HumanGrenadeMultiplier : ICommand
