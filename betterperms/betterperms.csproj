@@ -7,8 +7,8 @@
     <ProjectGuid>{D9627E71-65D8-42BE-B168-93FE2A5C8AC2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>betterperms</RootNamespace>
-    <AssemblyName>betterperms</AssemblyName>
+    <RootNamespace>BetterPerms</RootNamespace>
+    <AssemblyName>BetterPerms</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>

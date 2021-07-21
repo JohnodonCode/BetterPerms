@@ -1,7 +1,7 @@
 ﻿using Exiled.API.Interfaces;
 using System.ComponentModel;
 
-namespace betterperms
+namespace BetterPerms
 {
     public class Config : IConfig
     {

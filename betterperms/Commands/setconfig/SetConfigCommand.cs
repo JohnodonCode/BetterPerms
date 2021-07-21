@@ -1,7 +1,7 @@
 ﻿using CommandSystem;
 using System;
 
-namespace betterperms.Commands.setconfig
+namespace BetterPerms.Commands.setconfig
 {
     [CommandHandler(typeof(RemoteAdminCommandHandler))]
     class SetConfigCommand : ParentCommand

@@ -2,7 +2,7 @@
 using GameCore;
 using System;
 
-namespace betterperms.Commands.setconfig
+namespace BetterPerms.Commands.setconfig
 {
     class PDRefreshExit : ICommand
     {

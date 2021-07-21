@@ -1,7 +1,7 @@
 ﻿using Exiled.API.Features;
 using System;
 
-namespace betterperms
+namespace BetterPerms
 {
     public class Plugin : Plugin<Config>
     {
@@ -10,7 +10,7 @@ namespace betterperms
         // Metadata
         public override string Author { get; } = "Johnodon";
         public override string Name { get; } = "BetterPerms";
-        public override string Prefix { get; } = "BP";
+        public override string Prefix { get; } = "BetterPerms";
         public override Version Version { get; } = new Version(1, 0, 1);
         public override Version RequiredExiledVersion { get; } = new Version(2, 11, 1);
 

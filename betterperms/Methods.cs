@@ -1,7 +1,7 @@
 ﻿using CommandSystem;
 using Exiled.Permissions.Extensions;
 
-namespace betterperms
+namespace BetterPerms
 {
     class Methods
     {
