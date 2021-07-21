@@ -1,21 +1,20 @@
 ﻿using CommandSystem;
-using Exiled.Permissions.Extensions;
-using System;
 using GameCore;
+using System;
 
-namespace betterperms.Commands.setconfig
+namespace BetterPerms.Commands.setconfig
 {
-    class scp_grenade_multiplier : ICommand
+    class ScpGrenadeMultiplier : ICommand
     {
         public string Command { get; } = "scp_grenade_multiplier";
 
-        public string[] Aliases { get; } = { };
+        public string[] Aliases { get; } = Array.Empty<string>();
 
         public string Description { get; } = "";
 
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {
-            if (!sender.CheckPermission("ServerConfigs.scpgrenademultiplier") && !sender.CheckPermission("ServerConfigs") && !sender.CheckPermission(PlayerPermissions.ServerConfigs))
+            if (!new Methods().CheckSCPerms("scpgrenademultiplier", sender))
             {
                 response = "You do not have permission to use this command.";
                 return false;
@@ -33,11 +32,8 @@ namespace betterperms.Commands.setconfig
                 response = $"Set ServerConfig [scp_grenade_multiplier] to {multiplier * 100}";
                 return true;
             }
-            else
-            {
-                response = "Invalid argument (0)\nERR: IsNaN";
-                return false;
-            }
+            response = "Invalid argument (0)\nERR: IsNaN";
+            return false;
         }
     }
 }

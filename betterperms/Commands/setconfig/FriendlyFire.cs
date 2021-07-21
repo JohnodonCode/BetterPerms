@@ -1,20 +1,19 @@
 ﻿using CommandSystem;
-using Exiled.Permissions.Extensions;
 using System;
 
-namespace betterperms.Commands.setconfig
+namespace BetterPerms.Commands.setconfig
 {
-    class friendly_fire : ICommand
+    class FriendlyFire : ICommand
     {
         public string Command { get; } = "friendly_fire";
 
-        public string[] Aliases { get; } = { };
+        public string[] Aliases { get; } = Array.Empty<string>();
 
         public string Description { get; } = "";
 
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {
-            if (!sender.CheckPermission("ServerConfigs.friendlyfire") && !sender.CheckPermission("ServerConfigs") && !sender.CheckPermission(PlayerPermissions.ServerConfigs))
+            if (!new Methods().CheckSCPerms("friendlyfire", sender))
             {
                 response = "You do not have permission to use this command.";
                 return false;

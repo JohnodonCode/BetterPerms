@@ -1,21 +1,20 @@
 ﻿using CommandSystem;
-using Exiled.Permissions.Extensions;
-using System;
 using GameCore;
+using System;
 
-namespace betterperms.Commands.setconfig
+namespace BetterPerms.Commands.setconfig
 {
-    class player_list_title : ICommand
+    class PlayerListTitle : ICommand
     {
         public string Command { get; } = "player_list_title";
 
-        public string[] Aliases { get; } = { };
+        public string[] Aliases { get; } = Array.Empty<string>();
 
         public string Description { get; } = "";
 
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {
-            if (!sender.CheckPermission("ServerConfigs.playerlisttitle") && !sender.CheckPermission("ServerConfigs") && !sender.CheckPermission(PlayerPermissions.ServerConfigs))
+            if (!new Methods().CheckSCPerms("playerlisttitle", sender))
             {
                 response = "You do not have permission to use this command.";
                 return false;

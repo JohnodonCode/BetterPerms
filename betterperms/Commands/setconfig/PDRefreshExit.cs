@@ -1,21 +1,20 @@
 ﻿using CommandSystem;
-using Exiled.Permissions.Extensions;
-using System;
 using GameCore;
+using System;
 
-namespace betterperms.Commands.setconfig
+namespace BetterPerms.Commands.setconfig
 {
-    class pd_refresh_exit : ICommand
+    class PDRefreshExit : ICommand
     {
         public string Command { get; } = "pd_refresh_exit";
 
-        public string[] Aliases { get; } = { };
+        public string[] Aliases { get; } = Array.Empty<string>();
 
         public string Description { get; } = "";
 
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {
-            if (!sender.CheckPermission("ServerConfigs.pdrefreshexit") && !sender.CheckPermission("ServerConfigs") && !sender.CheckPermission(PlayerPermissions.ServerConfigs))
+            if (!new Methods().CheckSCPerms("pdrefreshexit", sender))
             {
                 response = "You do not have permission to use this command.";
                 return false;
