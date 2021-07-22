@@ -13,7 +13,7 @@ namespace BetterPerms.Commands.setconfig
 
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {
-            if (!new Methods().CheckSCPerms("spawnprotectdisable", sender))
+            if (Methods.CheckSCPerms("spawnprotectdisable", sender))
             {
                 response = "You do not have permission to use this command.";
                 return false;

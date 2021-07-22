@@ -14,7 +14,7 @@ namespace BetterPerms.Commands.setconfig
 
         public bool Execute(ArraySegment<string> arguments, ICommandSender sender, out string response)
         {
-            if (!new Methods().CheckSCPerms("pdrefreshexit", sender))
+            if (Methods.CheckSCPerms("pdrefreshexit", sender))
             {
                 response = "You do not have permission to use this command.";
                 return false;
