@@ -11,7 +11,7 @@ namespace BetterPerms
         public override string Author { get; } = "Johnodon";
         public override string Name { get; } = "BetterPerms";
         public override string Prefix { get; } = "BetterPerms";
-        public override Version Version { get; } = new Version(1, 0, 1);
+        public override Version Version { get; } = new Version(1, 1, 1);
         public override Version RequiredExiledVersion { get; } = new Version(2, 11, 1);
 
         public override void OnEnabled()
