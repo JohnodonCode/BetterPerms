@@ -47,7 +47,7 @@
   <ItemGroup>
     <Reference Include="0Harmony, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Assemblies\0Harmony.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Assemblies\EXILED3\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Accessibility" />
     <Reference Include="AmplifyBloom, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -56,7 +56,7 @@
     </Reference>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Assemblies\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Assemblies\EXILED3\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -90,33 +90,33 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Documents\Assemblies\DissonanceVoip.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.API, Version=2.8.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.API, Version=2.11.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Assemblies\Exiled.API.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Assemblies\EXILED3\Exiled.API.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CreditTags, Version=2.8.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.CreditTags, Version=2.11.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Assemblies\Exiled.CreditTags.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Assemblies\EXILED3\Exiled.CreditTags.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.CustomItems, Version=2.8.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.CustomItems, Version=2.11.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Assemblies\Exiled.CustomItems.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Assemblies\EXILED3\Exiled.CustomItems.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Events, Version=2.8.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.Events, Version=2.11.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Assemblies\Exiled.Events.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Assemblies\EXILED3\Exiled.Events.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.Loader, Version=2.8.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Assemblies\Exiled.Loader.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Assemblies\EXILED3\Exiled.Loader.dll</HintPath>
     </Reference>
-    <Reference Include="Exiled.Permissions, Version=2.8.0.0, Culture=neutral, processorArchitecture=AMD64">
+    <Reference Include="Exiled.Permissions, Version=2.11.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Assemblies\Exiled.Permissions.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Assemblies\EXILED3\Exiled.Permissions.dll</HintPath>
     </Reference>
     <Reference Include="Exiled.Updater, Version=3.1.1.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Assemblies\Exiled.Updater.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Assemblies\EXILED3\Exiled.Updater.dll</HintPath>
     </Reference>
     <Reference Include="Facepunch.Steamworks.Win64, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -181,7 +181,7 @@
     </Reference>
     <Reference Include="SemVer, Version=1.3.0.0, Culture=neutral, PublicKeyToken=a89bb7dc6f7a145c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Assemblies\SemVer.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Assemblies\EXILED3\SemVer.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
@@ -286,7 +286,7 @@
     </Reference>
     <Reference Include="YamlDotNet, Version=9.0.0.0, Culture=neutral, PublicKeyToken=ec19458f3c15af5e, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Documents\Assemblies\YamlDotNet.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\Assemblies\EXILED3\YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="zxing.unity, Version=0.16.4.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
